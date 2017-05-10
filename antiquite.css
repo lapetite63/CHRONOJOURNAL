@@ -1,0 +1,51 @@
+
+nav
+{
+	border:white;
+	margin: -4.5% 10% 0% 10%;
+	background-image: url(marbre.png);
+	background-repeat: repeat-y ;
+	background-attachment: fixed;
+	background-position : auto;
+}
+
+
+@font-face 
+{ /* Définition d'une nouvelle police nommée  */
+    font-family: 'Gelio Fasolada';
+    src: url('gelio_fasolada-webfont.eot');
+    src: url('gelio_fasolada-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gelio_fasolada-webfont.woff') format('woff'),
+         url('gelio_fasolada-webfont.ttf') format('truetype'),
+         url('gelio_fasolada-webfont.svg#Gelio Fasolada') format('svg');
+}
+
+h1
+{
+padding-top:5%;
+font-family: "Gelio Fasolada";
+text-align: center;
+font-size: 500%;
+color: white;
+	
+}
+
+
+body
+{
+	background-color:white;
+
+}
+
+.article
+{
+	
+	border-style:solid;
+	border-color:#0A2229;
+	background-color:white;
+	margin-left:20%;
+	margin-right:20%;
+	margin-bottom:2%;
+	padding :1%;
+	
+}
